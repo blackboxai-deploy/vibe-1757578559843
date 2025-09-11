@@ -1,0 +1,204 @@
+{
+  "subjects": [
+    {
+      "id": "math_2024_001",
+      "name": "Mathematics",
+      "color": "blue",
+      "instructor": "Dr. Johnson",
+      "room": "Room 201",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "physics_2024_001",
+      "name": "Physics",
+      "color": "green",
+      "instructor": "Prof. Smith",
+      "room": "Lab A",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "chemistry_2024_001",
+      "name": "Chemistry",
+      "color": "red",
+      "instructor": "Dr. Wilson",
+      "room": "Lab B",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "english_2024_001",
+      "name": "English Literature",
+      "color": "purple",
+      "instructor": "Ms. Davis",
+      "room": "Room 305",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "history_2024_001",
+      "name": "History",
+      "color": "orange",
+      "instructor": "Mr. Brown",
+      "room": "Room 102",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "cs_2024_001",
+      "name": "Computer Science",
+      "color": "teal",
+      "instructor": "Dr. Garcia",
+      "room": "Computer Lab",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    }
+  ],
+  "timeSlots": [
+    {
+      "id": "math_mon_001",
+      "subjectId": "math_2024_001",
+      "day": "monday",
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "room": "Room 201",
+      "notes": "Algebra and Calculus",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "math_wed_001",
+      "subjectId": "math_2024_001",
+      "day": "wednesday",
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "room": "Room 201",
+      "notes": "Problem solving session",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "math_fri_001",
+      "subjectId": "math_2024_001",
+      "day": "friday",
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "room": "Room 201",
+      "notes": "Quiz and review",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "physics_tue_001",
+      "subjectId": "physics_2024_001",
+      "day": "tuesday",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "room": "Lab A",
+      "notes": "Mechanics and Motion",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "physics_thu_001",
+      "subjectId": "physics_2024_001",
+      "day": "thursday",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "room": "Lab A",
+      "notes": "Lab experiments",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "chemistry_mon_001",
+      "subjectId": "chemistry_2024_001",
+      "day": "monday",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "room": "Lab B",
+      "notes": "Organic Chemistry",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "chemistry_wed_001",
+      "subjectId": "chemistry_2024_001",
+      "day": "wednesday",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "room": "Lab B",
+      "notes": "Lab work and experiments",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "english_tue_001",
+      "subjectId": "english_2024_001",
+      "day": "tuesday",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "room": "Room 305",
+      "notes": "Shakespeare studies",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "english_thu_001",
+      "subjectId": "english_2024_001",
+      "day": "thursday",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "room": "Room 305",
+      "notes": "Essay writing workshop",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "history_mon_001",
+      "subjectId": "history_2024_001",
+      "day": "monday",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "room": "Room 102",
+      "notes": "World War II",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "history_fri_001",
+      "subjectId": "history_2024_001",
+      "day": "friday",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "room": "Room 102",
+      "notes": "Discussion and presentations",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "cs_wed_001",
+      "subjectId": "cs_2024_001",
+      "day": "wednesday",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "room": "Computer Lab",
+      "notes": "Data Structures and Algorithms",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "cs_fri_001",
+      "subjectId": "cs_2024_001",
+      "day": "friday",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "room": "Computer Lab",
+      "notes": "Programming assignments",
+      "createdAt": "2024-01-15T09:00:00.000Z",
+      "updatedAt": "2024-01-15T09:00:00.000Z"
+    }
+  ],
+  "lastModified": "2024-01-15T09:00:00.000Z"
+}
